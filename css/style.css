@@ -85,7 +85,8 @@ font-family: 'Poppins', sans-serif;
 /* home */
 
 .home {
-    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .home .bg-img {
@@ -119,7 +120,7 @@ font-family: 'Poppins', sans-serif;
 .home::before {
     content: "";
     position: absolute;
-    bottom: -15px;
+    bottom:0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
